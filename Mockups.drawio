@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="dgUcYZpqr5GJabNcd-gy" name="Page-1">
+        <mxGraphModel dx="631" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="User Photo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="105" width="128" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="The Golden Goose" style="text;strokeColor=none;align=left;fillColor=#000066;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#010e6f;" vertex="1" parent="1">
+                    <mxGeometry x="61" y="37" width="279" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Home About Login" style="text;strokeColor=none;align=right;fillColor=#000066;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#010e6f;" vertex="1" parent="1">
+                    <mxGeometry x="286" y="37" width="279" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="User's First Name, User's Surname" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="66" y="225" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Your Supported Athletes" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="53" y="324" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Pledge Status: Gold" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="91" y="470" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Submit a New Project" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="171" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Athlete's Name: Project Title" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="91" y="432" width="155" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Athlete's Photo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="91" y="360" width="75" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Goal: Funding Goal" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="91" y="451" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Athlete's Photo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="358" width="75" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Pledge Status: Gold" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="615" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Athlete's Photo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="505" width="75" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Pledge Status: Gold" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="318" y="232" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="New Project Name:&amp;nbsp; Project Title" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="318" y="194" width="155" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Goal: Funding Goal" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="318" y="213" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="User's Name: Project Title" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="431" width="155" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Goal: Funding Goal (Progress Bar)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="450" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Athlete's Name: Project Title" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="578" width="155" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Goal: Funding Goal" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="89" y="597" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Manage a Project (Button)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="316" y="137" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Update Your Details (Button)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="316" y="105" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#080808;endSize=0;rounded=0;strokeWidth=3;endArrow=none;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="122" y="293" as="sourcePoint"/>
+                        <mxPoint x="429" y="293" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Your Current Projects" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=12;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="324" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Tier 1: Insert Number" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="473" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Tier 2: Insert Number" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="495" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Tier 3: Insert Number" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="518" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#080808;endSize=0;rounded=0;strokeWidth=3;endArrow=none;endFill=0;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="280" y="677" as="sourcePoint"/>
+                        <mxPoint x="280" y="309" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="User Dashboard" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=14;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="59" y="73" width="206" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Submit (Button)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
+                    <mxGeometry x="318" y="251" width="206" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

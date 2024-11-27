@@ -1,0 +1,26 @@
+.project-page {
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 2.5rem;
+    color: #003366; /* Navy blue */
+    margin-bottom: 15px;
+  }
+  
+  .project-info {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .pledges {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pledges li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff8e1;
+    border-radius: 5px;
+  }

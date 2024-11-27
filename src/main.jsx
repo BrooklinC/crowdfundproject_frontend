@@ -4,7 +4,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomePage from "./pages/HomePage.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import UserPage from "./pages/UserPage.jsx";
+import UserDashboard from "./pages/UserDashboard.jsx";
 import NavBar from "./components/NavBar.jsx";
+
+import "./App.css";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +18,9 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <HomePage /> },
       { path: "/project", element: <ProjectPage /> },
+      { path: "/about", element: <AboutPage /> },
+      { path: "/user", element: <UserPage /> },
+      { path: "/dashboard", element: <UserDashboard /> },
     ],
   },
 ]);
