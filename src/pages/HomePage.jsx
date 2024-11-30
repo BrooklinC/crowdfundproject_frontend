@@ -1,9 +1,11 @@
 import React from "react";
 import "./HomePage.css";
 import ProjectCard from "../components/ProjectCard";
-import { allProjects } from "../data";
+import useProjects from "../hooks/use-projects";
 
 function HomePage() {
+    const { projects } =useProjects();
+
     return (
         <div className="home-container">
             <h1 className="home-title">Welcome to The Golden Goose</h1>
@@ -14,7 +16,7 @@ function HomePage() {
             Scroll through and read all about each Athlete and their goals that you can help them reach    
             </p>
         <div className="project-grid">
-                {allProjects.map((project, index) => (
+                {projects.map((project, index) => (
                     <ProjectCard key={index} projectData={project} />
                 ))}
             </div>
