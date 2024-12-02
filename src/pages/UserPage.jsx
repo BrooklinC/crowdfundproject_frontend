@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import "./UserPage.css";
+import postLogin from "../api/post-login.js";
+import postUser from "../api/post-user.js";
+import { useNavigate } from "react-router-dom";
 
 function UserPage() {
+    const navigate = useNavigate();
+
     const [loginDetails, setLoginDetails] = useState({ username: "", password: "" });
     const [registerDetails, setRegisterDetails] = useState({
         username: "",
@@ -20,13 +25,36 @@ function UserPage() {
     const handleLogin = (e) => {
         e.preventDefault();
         console.log("Login Details:", loginDetails);
-        // Add your login API call or logic here
+        if (loginDetails.username && loginDetails.password) {
+            postLogin(
+                loginDetails.username,
+                loginDetails.password
+            ).then((response) => {
+                window.localStorage.setItem("token", response.token);
+                navigate("/dashboard");
+            });
+        }
     };
 
     const handleRegister = (e) => {
         e.preventDefault();
         console.log("Register Details:", registerDetails);
-        // Add your registration API call or logic here
+    
+        if (registerDetails.username && registerDetails.email && registerDetails.password) {
+            postUser(
+                registerDetails.username,
+                registerDetails.email,
+                registerDetails.password
+            ).then((response) => {
+                postLogin(
+                    response.username,
+                    registerDetails.password
+                ).then((response) => {
+                    window.localStorage.setItem("token", response.token);
+                    navigate("/dashboard");
+                });
+            })
+        }
     };
 
     return (
