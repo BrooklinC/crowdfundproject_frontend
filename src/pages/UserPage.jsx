@@ -7,7 +7,10 @@ import { useNavigate } from "react-router-dom";
 function UserPage() {
     const navigate = useNavigate();
 
-    const [loginDetails, setLoginDetails] = useState({ username: "", password: "" });
+    const [loginDetails, setLoginDetails] = useState({ 
+        username: "", 
+        password: "" 
+    });
     const [registerDetails, setRegisterDetails] = useState({
         username: "",
         email: "",

@@ -13,7 +13,7 @@ function HomePage() {
                 Discover and support amazing athletes as they chase the Golden Goose towards the 2032 Olympics!
             </p>
             <p className ="home-call-to-action">
-            Scroll through and read all about each Athlete and their goals that you can help them reach    
+            Scroll through and read about each Athlete, their goals and how you can help them reach them   
             </p>
         <div className="project-grid">
                 {projects.map((project, index) => (
