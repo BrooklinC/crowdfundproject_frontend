@@ -7,23 +7,36 @@ import { useNavigate } from "react-router-dom";
 function UserDashboard() {
     const navigate = useNavigate();
     // Handler for submitting a pledge
-    const [pledgeDetails, setPledgeDetails] = useState({ amount: 0, comment: "" , project: "", anonymous: false});
+    const [pledgeDetails, setPledgeDetails] = useState({ amount: 0, comment: "" , anonymous: false, project: "" });
     const handlePledgeDetailsChange = (e) => {
-        setPledgeDetails({ ...pledgeDetails, [e.target.name]: e.target.value, [id]: type === "checkbox" ? checked : value, });
+        const { name, type, value, checked } = e.target;
+        setPledgeDetails({
+            ...pledgeDetails,
+            [name]: type === "checkbox" ? checked : value, // Handle checkboxes properly
+        });
     };
+
     const handlePledgeSubmit = (e) => {
         e.preventDefault();
         console.log("Pledge Details:", pledgeDetails);
-        // if (pledgeDetails.project && pledgeDetails.comment && pledgeDetails.amount && pledgeDetails.anonymous) {
-            postPledge(
-                pledgeDetails.project,
-                pledgeDetails.comment,
-                pledgeDetails.amount,
-                pledgeDetails.anonymous,
-            ).then((response) => {
+    
+        postPledge(
+            pledgeDetails.amount,
+            pledgeDetails.comment,
+            pledgeDetails.anonymous,
+            pledgeDetails.project
+        )
+            .then((response) => {
+                // Success case
+                alert("Pledge created successfully! Thank you");
+            })
+            .catch((error) => {
+                // Error case
+                console.error("Error creating pledge:", error);
+                alert("An error occurred while creating the pledge. Please try again.");
             });
-        // }
     };
+    
 
     const [projectDetails, setProjectDetails] = useState({ title: "", description: "" , goal: 0, image: ""});
     const handleProjectDetailsChange = (e) => {
@@ -85,14 +98,6 @@ function UserDashboard() {
                 <h3>Pledge to an Athlete</h3>
                 <form onSubmit={handlePledgeSubmit}>
                     <input
-                        type="text"
-                        name="project"
-                        placeholder="Project"
-                        value={pledgeDetails.project}
-                        onChange={handlePledgeDetailsChange}
-                        required
-                    />
-                    <input
                         type="number"
                         name="amount"
                         placeholder="Amount"
@@ -114,6 +119,15 @@ function UserDashboard() {
                         placeholder="Anonymous"
                         value={pledgeDetails.anonymous}
                         onChange={handlePledgeDetailsChange}
+                    />
+                    <label htmlFor="anonymous">Pledge Anonymously</label>
+                    <input
+                        type="text"
+                        name="project"
+                        placeholder="Project"
+                        value={pledgeDetails.project}
+                        onChange={handlePledgeDetailsChange}
+                        required
                     />
                     <button type="submit">Submit Pledge</button>
                 </form>
