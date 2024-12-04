@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="dgUcYZpqr5GJabNcd-gy" name="Page-1">
-        <mxGraphModel dx="631" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="531" dy="660" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -101,6 +101,23 @@
                 </mxCell>
                 <mxCell id="45" value="Submit (Button)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontStyle=1;fontSize=9;fontColor=#080808;" vertex="1" parent="1">
                     <mxGeometry x="318" y="251" width="206" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="7IgdBx05MKQ2jyBkLKKT" name="Page-2">
+        <mxGraphModel dx="919" dy="561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="BEH-6c8bicmLDVvpj2pd-1" value="Home&amp;nbsp; &amp;nbsp;About&amp;nbsp; &amp;nbsp;Projects&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Login&amp;nbsp; &amp;nbsp;" style="text;strokeColor=none;align=right;fillColor=#000066;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#010e6f;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="95" width="302" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="BEH-6c8bicmLDVvpj2pd-2" value="&amp;nbsp; &amp;nbsp;The Golden Goose" style="text;strokeColor=none;align=left;fillColor=#000066;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#010e6f;" vertex="1" parent="1">
+                    <mxGeometry x="128" y="95" width="279" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="BEH-6c8bicmLDVvpj2pd-3" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;&amp;nbsp; Login&amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="text;strokeColor=none;align=right;fillColor=#f5f5f5;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;labelBorderColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="103" width="57" height="24" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

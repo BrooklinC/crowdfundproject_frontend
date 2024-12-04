@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import ProjectsPage from "./pages/ProjectsPages.jsx";
 import UserPage from "./pages/UserPage.jsx";
 import UserDashboard from "./pages/UserDashboard.jsx";
 import NavBar from "./components/NavBar.jsx";
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/about", element: <AboutPage /> },
       { path: "/user", element: <UserPage /> },
       { path: "/dashboard", element: <UserDashboard /> },
+      { path: "/projects/", element: <ProjectsPage /> },
     ],
   },
 ]);

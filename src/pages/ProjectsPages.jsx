@@ -1,16 +1,14 @@
 import React from "react";
-import "./HomePage.css";
+import "./ProjectsPage.css";
 import ProjectCard from "../components/ProjectCard";
 import useProjects from "../hooks/use-projects";
-import imagePath from "../img/The_Golden_Goose.png";
 
-function HomePage() {
+function ProjectsPage() {
     const { projects } =useProjects();
 
     return (
         <div className="home-container">
-            <h1 className="home-title">Welcome to The Golden Goose</h1>
-            <img src={imagePath} alt="Golden Goose Pic" />
+            <h1 className="home-title">Athlete Projects</h1>
             <p className="home-description">
                 Discover and support amazing athletes as they chase the Golden Goose towards the 2032 Olympics!
             </p>
@@ -26,5 +24,4 @@ function HomePage() {
     );
 }
 
-export default HomePage;
-
+export default ProjectsPage;
